@@ -1,0 +1,25 @@
+{
+  "name": "rotation-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "build": "npx tsc",
+    "start": "node dist/app.js",
+    "prisma-studio": "npx prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.5.2",
+    "@slack/bolt": "^3.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1",
+    "prisma": "^5.5.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
